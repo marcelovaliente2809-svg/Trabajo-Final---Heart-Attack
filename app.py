@@ -62,3 +62,5 @@ if st.button("🔍 Predecir Riesgo", use_container_width=True):
     st.metric(label="Probabilidad de riesgo", value=f"{proba:.1%}")
     st.progress(float(proba))
     st.caption("⚕️ Este resultado es orientativo. Consulta siempre a un médico.")
+
+    #algo de información adicional
